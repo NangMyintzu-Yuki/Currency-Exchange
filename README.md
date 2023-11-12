@@ -9,11 +9,11 @@ In the project directory, you can run:
 ### `npm start`
 
 ## Used Packages
-@mui
-axios
-react-icons
-react-router-dom
-react-toastify
+@mui,
+axios,
+react-icons,
+react-router-dom,
+react-toastify,
 
 ## API Reference
 ### https://fastforex.readme.io/reference/introduction
