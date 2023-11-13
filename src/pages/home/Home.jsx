@@ -47,6 +47,7 @@ const Home = () => {
   return (
     <div className="container">
       <Box className="converterCard">
+      <h1>Currency Converter</h1>
         <Grid container className="converter">
           <Grid item xs={12} md={5} sx={{ my: 2 }}>
             <SelectWithSearch
