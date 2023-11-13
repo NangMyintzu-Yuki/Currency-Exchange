@@ -78,6 +78,9 @@ const Home = () => {
               }
               }
             />
+            {
+              show && <small> 1 <b>{currency.from} </b> = {rate} <b>{currency.to}</b> </small>
+            }
           </Grid>
           <Grid item xs={12} md={2} sx={{ my: 2 }} >
           </Grid>
@@ -92,7 +95,7 @@ const Home = () => {
                      &nbsp;{currency.result.toLocaleString()} <b>{currency.to}</b>
                     </span>
                 </p>
-                <p> 1 <b>{currency.from} </b> = {rate} <b>{currency.to}</b> </p>
+             
               </div>
             }
           </Grid>
@@ -112,7 +115,7 @@ const Home = () => {
         <Box className="convertCard">
           <Grid container className="convert">
               <Grid item xs={12} md={6} >
-                <h1>Convert {currency.from}  to {currency.to}</h1>
+                <h2>Convert {currency.from}  to {currency.to}</h2>
                 <table>
                   <thead>
                   <tr>
@@ -154,7 +157,7 @@ const Home = () => {
                 </table>
               </Grid>
               <Grid item xs={12} md={6}>
-                <h1>Convert {currency.to}  to {currency.from}</h1>
+                <h2>Convert {currency.to}  to {currency.from}</h2>
                 <table>
                   <thead>
                   <tr>
